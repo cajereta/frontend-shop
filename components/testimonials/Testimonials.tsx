@@ -21,9 +21,9 @@ export const Testimonials = () => {
       </div>
       <div className="relative w-full md:w-[70%] h-full rounded-md">
         <Image
-          src="/22.webp"
-          width={1400}
-          height={800}
+          src="/testimonials.webp"
+          width={800}
+          height={500}
           alt="Testimonial"
           className="w-full h-full rounded-xl bg-cover"
         />

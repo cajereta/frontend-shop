@@ -1,10 +1,11 @@
 import { Product } from "@/lib/types";
+import Image from "next/image";
 
 export const ProductItem = (product: Product) => {
   return (
     <>
       <div className="w-72 md:w-64 h-[350px] p-4 flex flex-col gap-4 border border-gray-400 rounded-lg">
-        <img
+        <Image
           src={product.thumbnail}
           alt="product"
           width={150}
