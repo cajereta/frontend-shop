@@ -4,8 +4,7 @@ export const products = [
     category: "Women's Bags",
     description:
       "The Blue Women's Handbag is a stylish and spacious accessory for everyday use. ",
-    thumbnail:
-      "https://cdn.dummyjson.com/products/images/womens-bags/Blue%20Women's%20Handbag/thumbnail.png",
+    thumbnail: "/4.webp",
     price: 49.99,
     id: 172,
   },
@@ -14,8 +13,7 @@ export const products = [
     category: "Women's Bags",
     description:
       "The Heshe Women's Leather Bag is a luxurious and high-quality leather bag for the sophisticated woman. ",
-    thumbnail:
-      "https://cdn.dummyjson.com/products/images/womens-bags/Heshe%20Women's%20Leather%20Bag/thumbnail.png",
+    thumbnail: "/3.webp",
     price: 129.99,
     id: 173,
   },
@@ -25,8 +23,7 @@ export const products = [
     category: "Women's Bags",
     description:
       "The White Faux Leather Backpack is a trendy and practical backpack for the modern woman. ",
-    thumbnail:
-      "https://cdn.dummyjson.com/products/images/womens-bags/White%20Faux%20Leather%20Backpack/thumbnail.png",
+    thumbnail: "/2.webp",
     price: 39.99,
     id: 175,
   },
@@ -35,8 +32,7 @@ export const products = [
     category: "Women's Bags",
     description:
       "The Women Handbag in Black is a classic and versatile accessory that complements various outfits. ",
-    thumbnail:
-      "https://cdn.dummyjson.com/products/images/womens-bags/Women%20Handbag%20Black/thumbnail.png",
+    thumbnail: "/1.webp",
     price: 59.99,
     id: 176,
   },
@@ -45,8 +41,7 @@ export const products = [
     category: "Men's Shirts",
     description:
       "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. ",
-    thumbnail:
-      "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/thumbnail.png",
+    thumbnail: "/7.webp",
     price: 29.99,
     id: 83,
   },
@@ -55,8 +50,7 @@ export const products = [
     category: "Men's Shirts",
     description:
       "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. ",
-    thumbnail:
-      "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/thumbnail.png",
+    thumbnail: "/6.webp",
     price: 24.99,
     id: 84,
   },
@@ -66,8 +60,7 @@ export const products = [
     category: "Men's Shirts",
     description:
       "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. ",
-    thumbnail:
-      "https://cdn.dummyjson.com/products/images/mens-shirts/Men%20Check%20Shirt/thumbnail.png",
+    thumbnail: "/5.webp",
     price: 27.99,
     id: 87,
   },
@@ -76,8 +69,7 @@ export const products = [
     category: "Women's Bags",
     description:
       "The White Faux Leather Backpack is a trendy and practical backpack for the modern woman. ",
-    thumbnail:
-      "https://cdn.dummyjson.com/products/images/womens-bags/White%20Faux%20Leather%20Backpack/thumbnail.png",
+    thumbnail: "/3.webp",
     price: 49.99,
     id: 115,
   },
