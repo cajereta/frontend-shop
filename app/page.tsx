@@ -1,13 +1,13 @@
 import { Carousel } from "@/components/carousel/Carousel";
-import { ProductItem } from "@/components/products/ProductItem";
-import { products } from "@/lib/dummyData";
-import Image from "next/image";
+import { NewProductsSection } from "@/components/products/section/NewProducts";
+import { Testimonials } from "@/components/testimonials/Testimonials";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen ">
+    <main className="flex min-h-screen flex-col gap-4">
       <Carousel />
-      <ProductItem {...products[0]} />
+      <NewProductsSection />
+      <Testimonials />
     </main>
   );
 }

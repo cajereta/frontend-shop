@@ -18,7 +18,7 @@ export const TopHeader = () => {
           <select
             name="currency"
             id="currency"
-            aria-placeholder="USD"
+            aria-label="Currency"
             className="bg-white rounded-sm  px-2"
           >
             <option value="usd">USD</option>
@@ -28,7 +28,7 @@ export const TopHeader = () => {
           <select
             name="language"
             id="language"
-            aria-placeholder="English"
+            aria-label="Language"
             className="bg-white rounded-sm  px-2 "
           >
             <option value="en">English</option>

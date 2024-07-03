@@ -71,4 +71,14 @@ export const products = [
     price: 27.99,
     id: 87,
   },
+  {
+    title: " Leather Backpack",
+    category: "Women's Bags",
+    description:
+      "The White Faux Leather Backpack is a trendy and practical backpack for the modern woman. ",
+    thumbnail:
+      "https://cdn.dummyjson.com/products/images/womens-bags/White%20Faux%20Leather%20Backpack/thumbnail.png",
+    price: 49.99,
+    id: 115,
+  },
 ];

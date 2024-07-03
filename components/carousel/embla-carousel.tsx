@@ -28,7 +28,7 @@ export const EmblaCarousel: React.FC<PropType> = (props) => {
   });
 
   return (
-    <section className="embla rounded-lg my-8 md:my-2 transition-all">
+    <section className="embla rounded-lg my-8 md:my-4 transition-all">
       <div
         className="embla__viewport rounded-2xl h-[20rem] md:h-[40rem]"
         ref={emblaRef}
@@ -38,9 +38,9 @@ export const EmblaCarousel: React.FC<PropType> = (props) => {
             <div className="embla__slide" key={index}>
               <div
                 style={divStyle(slide.src)}
-                className="w-full h-[40rem] brightness-[0.9] bg-fit bg-center rounded-2xl"
+                className="w-full h-[40rem] brightness-[0.7] bg-fit bg-center rounded-2xl"
               />
-              <div className="absolute top-[10rem] md:top-80 md:bottom-[10rem] p-8 md:p-16 w-full font-bold text-white [text-shadow:_0px_20px_20px_rgb(0_0_0_/_80%)]">
+              <div className="absolute top-[8rem] md:top-80 md:bottom-[10rem] p-8 md:p-16 w-full font-bold text-white [text-shadow:_0px_20px_20px_rgb(0_0_0_/_80%)]">
                 <h3 className="my-4 text-4xl md:text-7xl drop-shadow-lg tracking-wide ">
                   {slide.title}
                 </h3>

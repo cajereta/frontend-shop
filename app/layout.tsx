@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/header/Header";
 import { BottomHeader } from "@/components/header/bottom-header";
 import { MobileNavigation } from "@/components/navigation/MobileNavigation";
+import { Footer } from "@/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Header />
         {children}
         <MobileNavigation />
+        <Footer />
       </body>
     </html>
   );

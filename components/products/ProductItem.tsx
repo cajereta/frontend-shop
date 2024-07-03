@@ -3,17 +3,17 @@ import { Product } from "@/lib/types";
 export const ProductItem = (product: Product) => {
   return (
     <>
-      <div className="w-56 h-fit p-4 flex flex-col gap-4 border border-gray-400 rounded-lg">
+      <div className="w-72 md:w-64 h-[350px] p-4 flex flex-col gap-4 border border-gray-400 rounded-lg">
         <img
           src={product.thumbnail}
           alt="product"
-          width={200}
-          height={300}
-          className="object-cover"
+          width={150}
+          height={250}
+          className="object-cover mx-auto"
         />
         <div>
-          <h4 className="text-sm text-gray-500">{product.category}</h4>
-          <h3 className="font-bold ">{product.title}</h3>
+          <h3 className="text-sm text-gray-500">{product.category}</h3>
+          <h4 className="font-bold h-12">{product.title}</h4>
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">${product.price}</h3>
