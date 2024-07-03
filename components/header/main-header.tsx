@@ -3,8 +3,8 @@ import { Cart, Heart, Magnifier, User } from "../icons";
 export const MainHeader = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center gap-2 md:justify-between py-4 border-b border-gray-300/75">
-        <h1 className="text-2xl font-bold hover:underline decoration-wavy underline-offset-8 cursor-pointer decoration-lime-400/50  ">
+      <div className="flex flex-col md:flex-row items-center gap-2 md:justify-between py-4 md:px-4 border-b border-gray-300/75">
+        <h1 className="text-2xl font-bold hover:underline decoration-wavy underline-offset-8 cursor-pointer decoration-blue-400/50  ">
           ＦＡＮＣＹ
         </h1>
         <div className="flex items-center w-full px-8 md:w-[65%] relative">
